@@ -1,0 +1,34 @@
+# ###########################################################################################
+# ######### Config for translations, only change the translation not the structure! #########
+# ###########################################################################################
+
+# ################# Formatting / Color #################
+# You will find all codes here: https://minecraft.gamepedia.com/Formatting_codes
+# Please use § for formatting like §eHello World
+# ######################################################
+
+Core:
+  plugin:
+    error: §Pluginerror, please check server logs
+  events:
+    playerJoin: §aWelcome to my super dooper §9Test-Server
+  command:
+    noPlayer: This command is §9only §afor player!
+    noRights: §cYou §9dont §ahave enough §9permissions §afor this!
+    fly:
+      enable: §aYou §9enable §athe wings and fly away, §9wuhuuuuuu
+      disable: §aYou §9disable §athe wings and use your feets, §9meeeh
+    wuff: §aYou are a §9good boy §aand all good boys deserve a §9cookie!!!
+    tele:
+      dontFindPlayer: §cDont find a player with this name!
+      playerOff: §cPlayer is §9offline
+      2playerReq: §aBoth players must be §9online
+      teleportToPlayer: §ateleport you to
+      teleportToTarget: §ayou was teleportet
+    warp:
+      set: §aWarp was set to your §9current §alocation
+      removed: §aWarp was §9removed §asuccessful
+      teleported: §aTeleportet to
+      exists: §aA warp with this name §9already §aexists
+      notexists: §aThis warp §9does not exist§a, aviable warps
+      missingname: §aPlease provide a §9free warp §aname, see warps
