@@ -1,6 +1,6 @@
 # What is my plugin?
 
-Minecraft core is an open source plugin that provides your server with some useful basic commands, events and functions. I will try to implement more and more features and events. 
+Minecraft core is an open source template to create a minecraft plugin.
 
 # Which features are included?
 
@@ -10,7 +10,7 @@ Minecraft core is an open source plugin that provides your server with some usef
 4. A Config to translate your plugin (translation.yml), default is EN.
 5. A Custome Exception class (for developer only).
 
---> This sounds not so much, but the first milestone was much framework stuff ^^
+--> This sounds not so much, but enough for starting a new plugin.
 
 # Can i use your code for new plugins?
 
