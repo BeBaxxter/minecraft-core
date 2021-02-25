@@ -16,18 +16,3 @@ Minecraft core is an open source template to create a minecraft plugin.
 
 Absolutely. Unfortunately I cannot implement all requirements and wishes. Therefore you may use my code to customize the plugin to your wishes. But if you have any ideas, please write me.
 
-
-# Which events are included?
-
-| Name | Usage |
-| ------ | ------ |
-| onPlayerJoin | write every player a custome welcome message when he join the server |
-
-
-# Which commands are included?
-
-| Command | Permission | Description |
-| ------ | ------ | ------ |
-| /wuff | core.player.wuff| player barks and get a nice cookie |
-| /fly | core.player.fly | set current player flymode to on/off |
-| /tele | core.player.tele | teleport one player to another player or coordinate |
