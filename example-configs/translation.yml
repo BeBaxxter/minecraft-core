@@ -1,0 +1,32 @@
+# ###########################################################################################
+# ######### Config for translations, only change the translation not the structure! #########
+# ###########################################################################################
+
+# ################# Formatting / Color #################
+# You will find all codes here: https://minecraft.gamepedia.com/Formatting_codes
+# Please use § for formatting like §eHello World
+# ######################################################
+
+Core:
+  plugin:
+    error: §Pluginerror, please check server logs
+  events:
+    playerJoin: §aWelcome to my super dooper §eTest-Server
+  command:
+    noPlayer: This command is only for player!
+    noRights: §cYou dont have enough permissions for this!
+    list: \n§c>/list \n>/fly \n>/wuff" 
+    fly:
+      enable: §aWings enabled, wuhuuuuuu
+      disable: §aWings disabled, meeeh
+    wuff: §aall good boys deserve a cookie
+    tele:
+      playerOff: §cPlayer is offline
+      2playerReq: §aBoth players must be online
+    warp:
+      set: §aWarp was set to your current location
+      removed: §aWarp was removed successful
+      teleported: §aTeleportet to
+      exists: §aA warp with this name already exists 
+      notexists: §aThis warp does not exist, aviable warps
+      missingname: §aPlease provide a free warp name, see warps

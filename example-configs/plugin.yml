@@ -1,0 +1,66 @@
+name: Core
+prefix: Core
+author: Baxxter
+main: de.spacedog.core.Core
+version: 0.8
+api-version: 1.14
+
+commands:
+  list:
+    usage: /list
+    description: shows all aviable Commands
+    permission: core.player.list
+  wuff:
+    usage: /wuff
+    description: player barks and get a nice cookie        
+    permission: core.player.wuff      
+  fly:
+    usage: /fly
+    description: set current player flymode
+    permission: core.player.fly      
+  tele:
+    usage: /tele <player> [player] | <X-Coord> <Y-Coord> <Z-Coord>
+    description: teleport one player to another player or coordinate
+    permission: core.player.tele 
+  warp:
+    usage: /warp <WarpPointName>
+    description: warp player to choosen warp
+    permission: core.player.warp 
+  setWarp:
+    usage: /setwarp <WarpPointName>
+    description: set warp with the given name
+    permission: core.player.setwarp 
+  delWarp:
+    usage: /delwarp <WarpPointName>
+    description: delete warp with the given name
+    permission: core.player.delwarp             
+      
+permissions:
+  core.player.*:
+    description: Allow all Core player commands
+    childen:
+      core.player.fly: true
+      core.player.wuff: true
+      core.player.list: true
+      core.player.tele: true
+  core.player.fly:
+    description: Allow fly command
+    default: true
+  core.player.wuff:
+    description: Allow wuff command
+    default: true
+  core.player.list:
+    description: Allow list command
+    default: true        
+  core.player.tele:
+    description: Allow list command
+    default: true    
+  core.player.warp:
+    description: warp player to choosen warp
+    default: true     
+  core.player.setwarp:
+    description: set warp with the given name
+    default: true     
+  core.player.delwarp:
+    description: delete warp with the given name
+    default: true                       
